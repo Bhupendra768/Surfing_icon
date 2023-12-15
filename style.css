@@ -11,6 +11,20 @@ body{
 }
 .container{
     position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 1000px;
+    /* background-image: url(D:\Desktop\PP\Surfing_icon\22375933.jpg); */
+}
+#button{
+    position: absolute;
+    left: 3em;
+    top: 3em;
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    background-color: beige;
 }
 .circle{
     position: absolute;
@@ -20,10 +34,10 @@ body{
     border-radius: 50%;
     border-style: solid;
     border-top: #fafafa solid;
-    animation: round 1s linear infinite;
+    /* animation: round 1s linear infinite; */
 }
-@keyframes round{
+/* @keyframes round{
     to{
         transform: rotate(360deg);
     }
-}
+} */
